@@ -1,0 +1,98 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .activity-title {
+    background-color: aqua;
+ }
+
+
+/** activity list page */
+.activity-list-item{
+	display:flex;
+   width: 100%;
+   margin-bottom: 2em;  
+}
+
+.activity-list-due-date {
+    float: right;
+    font-size: 0.6em;
+}
+
+.activity-list-item a{
+   width: 100%;
+}
+
+.activity-list-title {
+   /* Ensure it spans the full width */
+   width: 100%;
+   margin-bottom: 0;
+}
+
+
+/** activity page content-as-activity.php in lightning/_g2/template-parts/post */
+.activity-description {
+   margin-bottom: 2em;
+   padding: 10px 0 20px 0;
+}
+
+.activity-participants table {
+   margin: 0 0 2em;
+}
+
+.current-user {
+   background-color: #e0e0e0;
+}
+
+.activity-participants-table a {
+   text-decoration: none;
+ }
+ 
+.activity-participants-table i {
+   vertical-align: middle;
+   font-size: 24px;
+ }
+ 
+ .md-table {
+   min-width: 100%;
+   border-collapse: collapse;
+   border: 1px solid black;
+ }
+ 
+ .md-table tbody tr:hover, .md-table tbody tr:focus {
+   cursor: pointer;
+   background-color: rgba(63, 81, 181, 0.2);
+ }
+ 
+ .md-table-header {
+   border-bottom: 1px solid black;
+   color: rgb(130, 130, 130);
+   background-color: lightgrey;
+   text-align: left;
+   font-size: 0.75em;
+   font-weight: 700;
+   padding: 16px 16px 16px 16px;
+ }
+ 
+ .md-table-header a {
+   text-decoration: none;
+   color: inherit;
+ }
+ 
+ .md-table-content {
+   white-space: nowrap;
+   font-size: 0.8em;
+   padding: 16px 16px 16px 0;
+ }
+ 
+ .md-table tbody tr td {
+   border-bottom: none;
+   padding: 16px 16px 16px 16px;
+ }
+
+
+
+.meta-box-input {
+  margin-left: 15px;
+}

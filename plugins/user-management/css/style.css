@@ -1,0 +1,32 @@
+/* General Management */
+
+
+/* Team Management */
+.tablenav-pages {
+    margin-top: 10px;
+    text-align: center;
+}
+.tablenav-pages .page-numbers {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    text-decoration: none;
+    color: #0073aa;
+}
+.tablenav-pages .page-numbers:hover {
+    background-color: #f0f0f0;
+    color: #005177;
+}
+.tablenav-pages .page-numbers.current {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+/* Committee management */
+.committee-search-result {
+    margin-top: 20px;
+}
+
+
+

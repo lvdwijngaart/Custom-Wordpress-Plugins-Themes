@@ -1,0 +1,100 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #col-container {
+    display: flex;
+    gap: 20px;
+}
+#col-left, #col-right {
+    flex: 1;
+}
+#col-left {
+    max-width: 400px;
+}
+
+/* Default background for all visible rows */
+/* .activity-type-row:not(.quick-edit-row):nth-child(odd) {
+    background-color: #e9e9e9;
+    padding: 8px;
+    text-align: left;
+}
+
+.activity-type-row:not(.quick-edit-row):nth-child(even) {
+    background-color: #ffffff;
+    padding: 8px;
+    text-align: left;
+} */
+.activity-type-row {
+    padding: 8px;
+    text-align: left;
+}
+
+.row-dark {
+    background-color: #f6f7f7;
+}
+
+.row-light {
+    background-color: #ffffff;
+}
+
+/* Optional: Add consistent padding */
+/* .activity-type-row, .activity-type-header-row {
+    
+} */
+
+/* Hide row actions by default */
+.row-actions {
+    display: none;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Show row actions on hover */
+tr:hover .row-actions {
+    display: block;
+}
+
+/* Style links inside row actions */
+.row-actions a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.row-actions a:hover {
+    text-decoration: underline;
+    color: #005177; /* Darker color on hover */
+}
+
+/* Optional: Add some spacing and styling for clarity */
+.row-actions span {
+    margin-right: 5px;
+}
+
+.quick-edit-row {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+/* Wrapper for the quick-edit fields */
+.quick-edit-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 5px; /* Add spacing between fields */
+    padding: 5px 0; /* Add padding for better spacing */
+}
+
+/* Input fields */
+.quick-edit-wrapper input[type="text"] {
+    width: 100%; /* Make inputs span the full width of the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Buttons wrapper */
+.quick-edit-buttons {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+    justify-content: flex-start; /* Align buttons to the left */
+    margin-top: 5px; /* Add margin above the buttons */
+}
